@@ -3,9 +3,9 @@
 ###############################################################
 
 #Creation of the NSG
-resource "azurerm_network_security_group" "Terra-NSG" {
-  name                = var.NSGName
-  location            = var.NSGLocation
+resource "azurerm_network_security_group" "TerraNsg" {
+  name                = var.NsgName
+  location            = var.NsgLocation
   resource_group_name = var.RgName
 
   tags = {

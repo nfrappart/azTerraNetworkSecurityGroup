@@ -4,7 +4,7 @@
 
 #Variable declaration for Module
 
-variable "NSGName" {
+variable "NsgName" {
   type    = string
   default = "DefaultNSG"
 }
@@ -14,7 +14,7 @@ variable "RgName" {
   default = "DefaultRSG"
 }
 
-variable "NSGLocation" {
+variable "NsgLocation" {
   type    = string
   default = "westeurope"
 }
