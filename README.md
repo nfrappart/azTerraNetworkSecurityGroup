@@ -9,7 +9,7 @@ Simple module to create a NSG
 ```hcl
 module "NSG-test_Nate-Fr" {
   source      = "github.com/nfrappart/azTerraNetworkSecurityGroup?ref=v1.0.0"
-  NsgName     = "NSGnsg-test_Nate-${var.company}-Fr"
+  NsgName     = "nsg-test_Nate-eu"
   NsgLocation = module.rg-core-eu.Location #Refering to existing RG Location created by module
   RgName      = module.rg-core-eu.Name #Refering to existing RG Name created by module
   ProvisioningDateTag = timestamp()
