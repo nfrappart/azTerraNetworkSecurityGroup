@@ -12,6 +12,6 @@ module "NSG-test_Nate-Fr" {
   NsgName     = "nsg-test_Nate-eu"
   NsgLocation = module.rg-core-eu.Location #Refering to existing RG Location created by module
   RgName      = module.rg-core-eu.Name #Refering to existing RG Name created by module
-  ProvisioningDateTag = timestamp()
+  #UsageTag = "Demo" #Optional. Default value is "PoC Usage Only"
 }
 ```

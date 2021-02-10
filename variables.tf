@@ -29,12 +29,12 @@ variable "OwnerTag" {
   default = "Nate"
 }
 
-variable "ProvisioningDateTag" {
-  type    = string
-
-}
-
 variable "ProvisioningModeTag" {
   type    = string
   default = "Terraform"
+}
+
+variable "UsageTag" {
+  type = string
+  default = "PoC usage only"
 }
